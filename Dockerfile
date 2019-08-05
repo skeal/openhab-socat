@@ -1,6 +1,4 @@
-ARG OPENHAB_VERSION=2.4.0-amd64-debian
-
-FROM openhab/openhab:$OPENHAB_VERSION
+FROM openhab/openhab:latest
 
 # Install socat
 RUN apt-get update &&\
